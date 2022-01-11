@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84253ffc-ea13-4525-9010-b65c698a051e" name="Default Changelist" comment="" />
+    <list default="true" id="84253ffc-ea13-4525-9010-b65c698a051e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +25,9 @@
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="23TFoOo0kGWBrmmExUnu2FuYfrx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -46,5 +52,9 @@
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
     <state x="555" y="215" width="800" height="679" key="#Go_Modules_(vgo)/0.28.1920.1052@0.28.1920.1052" timestamp="1641750400723" />
+    <state x="654" y="359" width="601" height="392" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1641908017195">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="654" y="359" width="601" height="392" key="#com.intellij.fileTypes.FileTypeChooser/0.28.1920.1052@0.28.1920.1052" timestamp="1641908017195" />
   </component>
 </project>
