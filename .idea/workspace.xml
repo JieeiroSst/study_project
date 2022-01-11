@@ -22,6 +22,9 @@
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="23TFoOo0kGWBrmmExUnu2FuYfrx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -33,6 +36,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -46,5 +50,9 @@
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
     <state x="555" y="215" width="800" height="679" key="#Go_Modules_(vgo)/0.28.1920.1052@0.28.1920.1052" timestamp="1641750400723" />
+    <state x="656" y="359" width="598" height="392" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1641911136197">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="656" y="359" width="598" height="392" key="#com.intellij.fileTypes.FileTypeChooser/0.28.1920.1052@0.28.1920.1052" timestamp="1641911136197" />
   </component>
 </project>
