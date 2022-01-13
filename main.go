@@ -31,6 +31,7 @@ func main() {
 
 	// Routes
 	r.GET("/", HealthCheck)
+	r.POST("/", HealthCheck1)
 
 	url := ginSwagger.URL("http://localhost:3000/swagger/doc.json") // The url pointing to API definition
 	r.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler, url))
@@ -50,6 +51,22 @@ func main() {
 // @Success 200 {object} map[string]interface{}
 // @Router / [get]
 func HealthCheck(c *gin.Context) {
+	res := map[string]interface{}{
+		"data": "Server is up and running",
+	}
+
+	c.JSON(http.StatusOK, res)
+}
+
+// HealthCheck1 godoc
+// @Summary Show the status of server.
+// @Description get the status of server.
+// @Tags root
+// @Accept */*
+// @Produce json
+// @Success 200 {object} map[string]interface{}
+// @Router / [post]
+func HealthCheck1(c *gin.Context) {
 	res := map[string]interface{}{
 		"data": "Server is up and running",
 	}

@@ -29,6 +29,21 @@ paths:
       summary: Show the status of server.
       tags:
       - root
+    post:
+      consumes:
+      - '*/*'
+      description: get the status of server.
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+      summary: Show the status of server.
+      tags:
+      - root
 schemes:
 - http
 swagger: "2.0"
