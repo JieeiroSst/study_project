@@ -48,6 +48,7 @@ func main() {
 // @Tags root
 // @Accept */*
 // @Produce json
+// @Param id path int true "Account ID"
 // @Success 200 {object} map[string]interface{}
 // @Router / [get]
 func HealthCheck(c *gin.Context) {
@@ -64,6 +65,7 @@ func HealthCheck(c *gin.Context) {
 // @Tags root
 // @Accept */*
 // @Produce json
+// @Param id path int true "Account ID"
 // @Success 200 {object} map[string]interface{}
 // @Router / [post]
 func HealthCheck1(c *gin.Context) {
